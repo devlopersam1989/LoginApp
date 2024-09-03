@@ -16,7 +16,7 @@ class TestController extends Controller
             'email' => 'i.samabraham@gmail.com',
             'password' => Hash::make('plain-text')
         ])->save();
-        // $hashed = Hash::make('password', [
+        //// $hashed = Hash::make('password', [
         //     'rounds' => 12,
         // ]);
         // print_r($hashed); echo '<br>';
